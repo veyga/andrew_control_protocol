@@ -1,0 +1,47 @@
+running sender with default settings
+destination_name: 127.0.0.1
+destination_port: 9999
+window_size: 1
+infile: infile.txt
+ACP Sender Running
+Total bytes read 10000
+sending ACPHeader: type: Data, win: 1, seq: 0, length: 512
+received ACPHeader: type: Ack, win: 2, seq: 1, length: 0
+sending ACPHeader: type: Data, win: 2, seq: 1, length: 512
+sending ACPHeader: type: Data, win: 2, seq: 2, length: 512
+received ACPHeader: type: Ack, win: 2, seq: 2, length: 0
+received ACPHeader: type: Ack, win: 2, seq: 3, length: 0
+sending ACPHeader: type: Data, win: 2, seq: 3, length: 512
+sending ACPHeader: type: Data, win: 2, seq: 4, length: 512
+received ACPHeader: type: Ack, win: 2, seq: 4, length: 0
+received ACPHeader: type: Ack, win: 5, seq: 5, length: 0
+sending ACPHeader: type: Data, win: 5, seq: 5, length: 512
+sending ACPHeader: type: Data, win: 5, seq: 6, length: 512
+sending ACPHeader: type: Data, win: 5, seq: 7, length: 512
+sending ACPHeader: type: Data, win: 5, seq: 8, length: 512
+sending ACPHeader: type: Data, win: 5, seq: 9, length: 512
+received ACPHeader: type: Ack, win: 5, seq: 6, length: 0
+received ACPHeader: type: Ack, win: 5, seq: 7, length: 0
+received ACPHeader: type: Ack, win: 5, seq: 8, length: 0
+received ACPHeader: type: Ack, win: 5, seq: 9, length: 0
+received ACPHeader: type: Ack, win: 2, seq: 10, length: 0
+sending ACPHeader: type: Data, win: 2, seq: 10, length: 512
+sending ACPHeader: type: Data, win: 2, seq: 11, length: 512
+received ACPHeader: type: Ack, win: 2, seq: 11, length: 0
+received ACPHeader: type: Ack, win: 1, seq: 12, length: 0
+sending ACPHeader: type: Data, win: 1, seq: 12, length: 512
+received ACPHeader: type: Ack, win: 3, seq: 13, length: 0
+sending ACPHeader: type: Data, win: 3, seq: 13, length: 512
+sending ACPHeader: type: Data, win: 3, seq: 14, length: 512
+sending ACPHeader: type: Data, win: 3, seq: 15, length: 512
+received ACPHeader: type: Ack, win: 3, seq: 14, length: 0
+received ACPHeader: type: Ack, win: 3, seq: 15, length: 0
+received ACPHeader: type: Ack, win: 5, seq: 16, length: 0
+sending ACPHeader: type: Data, win: 5, seq: 16, length: 512
+sending ACPHeader: type: Data, win: 5, seq: 17, length: 512
+sending ACPHeader: type: Data, win: 5, seq: 18, length: 512
+sending ACPHeader: type: Data, win: 5, seq: 19, length: 272
+received ACPHeader: type: Ack, win: 5, seq: 17, length: 0
+received ACPHeader: type: Ack, win: 5, seq: 18, length: 0
+received ACPHeader: type: Ack, win: 5, seq: 19, length: 0
+received ACPHeader: type: Ack, win: 5, seq: 20, length: 0
