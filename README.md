@@ -1,5 +1,5 @@
 # andrew_control_protocol
-acp: a simple reliability layer over UDP utilizing a sliding window
+ACP: a simple reliability layer over UDP utilizing a sliding window
 
 To run:
 "make run_receiver"
@@ -9,11 +9,11 @@ To run:
 
 Running the protocol example will copy the infile contents to the outfile via the network protocol.
 
-The makefile provides the following default arguments.
-IP: 127.0.0.1
-Port: 9999
-Starting WIN: 1
-Infile: infile.txt
-Outfile: outfile.txt
+The makefile provides the following default arguments. <br/>
+IP: 127.0.0.1 <br/>
+Port: 9999 <br/>
+Starting WIN: 1 <br/>
+Infile: infile.txt <br/>
+Outfile: outfile.txt <br/> 
 
 Custom args can be utilized by running the CLI directly and not running the make targets.
