@@ -1,5 +1,6 @@
 # andrew_control_protocol
-ACP: a simple reliability layer over UDP utilizing a sliding window
+ACP: a simple reliability layer over UDP utilizing a sliding window <br/>
+WIN is randomized to simulate network load.
 
 To run:
 "make run_receiver"
@@ -17,3 +18,5 @@ Infile: infile.txt <br/>
 Outfile: outfile.txt <br/> 
 
 Custom args can be utilized by running the CLI directly and not running the make targets.
+
+You can view the example output logs without running the program itself. Simply view "example_receiver_log.txt" and "example_sender_log.txt" files.
