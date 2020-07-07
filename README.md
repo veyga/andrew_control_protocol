@@ -1,6 +1,7 @@
 # andrew_control_protocol
 ACP: a simple reliability layer over UDP utilizing a sliding window <br/>
-WIN is randomized to simulate network load.
+WIN is randomized to simulate network load. <br/>
+Thread sleeping is implemented to simulate transmission/propogation delays.
 
 To run:
 "make run_receiver"
