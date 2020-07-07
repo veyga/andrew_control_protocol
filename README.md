@@ -1,5 +1,6 @@
 # andrew_control_protocol
-ACP: a simple reliability layer over UDP utilizing a sliding window
+ACP: a simple reliability layer over UDP utilizing a sliding window <br/>
+WIN is randomized to simulate network load.
 
 To run:
 "make run_receiver"
